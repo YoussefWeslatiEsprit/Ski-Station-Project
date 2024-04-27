@@ -3,12 +3,21 @@
   <timestamp>2024-04-27 06:44:41.536 UTC</timestamp>
   <md5sum>5fc30cf14f8fad4044060a46ea025037</md5sum>
   <fileName>Credential id=youssefGitCreds name=YoussefWeslatiEsprit/******</fileName>
-  <usages/>
+  <usages>
+    <entry>
+      <string>test-pipe</string>
+      <ranges>2-3</ranges>
+    </entry>
+    <entry>
+      <string>Ski-Station-Pipeline</string>
+      <ranges>3</ranges>
+    </entry>
+  </usages>
   <facets>
     <com.cloudbees.plugins.credentials.fingerprints.ItemCredentialsFingerprintFacet plugin="credentials@1337.v60b_d7b_c7b_c9f">
-      <timestamp>1714200667808</timestamp>
+      <timestamp>1714200956774</timestamp>
       <itemFullName>Ski-Station-Pipeline</itemFullName>
-      <timestamp0>1714200281512</timestamp0>
+      <timestamp0>1714200667808</timestamp0>
     </com.cloudbees.plugins.credentials.fingerprints.ItemCredentialsFingerprintFacet>
   </facets>
 </fingerprint>

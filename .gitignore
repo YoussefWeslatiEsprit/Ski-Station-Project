@@ -4,6 +4,9 @@ target/
 !**/src/main/**/target/
 !**/src/test/**/target/
 
+jenkins_compose/
+volumes/
+
 ### STS ###
 .apt_generated
 .classpath

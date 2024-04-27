@@ -19,6 +19,10 @@ services:
     build: .
     restart: on-failure
     image: skiapp
+    environment:
+      spring.datasource.url: "jdbc:mysql://mysqldb:3306/SkiStationDB?createDatabaseIfNotExist=true"
+      spring.datasource.username: root
+      spring.datasource.password: password
     ports:
       - "9090:9090"
     depends_on:
@@ -41,6 +45,7 @@ services:
     ports:
       - "8081:8081"
     restart: always
+    user: "1000:1000"
     environment:
       - INSTALL4J_ADD_VM_PARAMS=-Xms2g -Xmx2g -XX:MaxDirectMemorySize=3g
       - NEXUS_SECURITY_RANDOMPASSWORD=true
