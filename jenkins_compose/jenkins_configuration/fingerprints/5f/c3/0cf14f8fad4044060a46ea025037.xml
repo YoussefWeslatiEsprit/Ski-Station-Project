@@ -10,14 +10,14 @@
     </entry>
     <entry>
       <string>Ski-Station-Pipeline</string>
-      <ranges>3</ranges>
+      <ranges>1,3</ranges>
     </entry>
   </usages>
   <facets>
     <com.cloudbees.plugins.credentials.fingerprints.ItemCredentialsFingerprintFacet plugin="credentials@1337.v60b_d7b_c7b_c9f">
-      <timestamp>1714200956774</timestamp>
+      <timestamp>1714220522181</timestamp>
       <itemFullName>Ski-Station-Pipeline</itemFullName>
-      <timestamp0>1714200667808</timestamp0>
+      <timestamp0>1714200956774</timestamp0>
     </com.cloudbees.plugins.credentials.fingerprints.ItemCredentialsFingerprintFacet>
   </facets>
 </fingerprint>

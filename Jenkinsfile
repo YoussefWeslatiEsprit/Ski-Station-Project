@@ -28,7 +28,15 @@ pipeline {
                 sh "mvn clean test -Ptest"
             }
         }
+        
 
+        stage('SonarQube') {
+            steps {
+                script {
+                    sh 'mvn compile sonar:sonar -Dsonar.host.url=https://sonarcloud.io/ -Dsonar.organization=skiproject -Dsonar.projectKey=skiproject1_devops -Dsonar.login=7582b019c3cb5c477a25bb7b8ef94de659be2b4e -Dsonar.coverage.jacoco.xmlReportPaths=target/site/jacoco/jacoco.xml'
+                }
+            }
+        }
         stage('Build Artifact') {
             steps {
                 sh 'mvn package -DskipTests'

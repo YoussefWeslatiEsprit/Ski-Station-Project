@@ -1,3 +1,337 @@
 Started by user unknown or anonymous
-ERROR: Unable to find Jenkinsfile from git https://github.com/YoussefWeslatiEsprit/Ski-Station-Project.git
+Obtained Jenkinsfile from git https://github.com/YoussefWeslatiEsprit/Ski-Station-Project.git
+[8mha:////4ESjU6rg+apMYSN5Mb/8XAN8ZjOGFkL1yKkYKxwkxA/7AAAAoh+LCAAAAAAAAP9tjTEOwjAQBM8BClpKHuFItIiK1krDC0x8GCfWnbEdkooX8TX+gCESFVvtrLSa5wtWKcKBo5UdUu8otU4GP9jS5Mixv3geZcdn2TIl9igbHBs2eJyx4YwwR1SwULBGaj0nRzbDRnX6rmuvydanHMu2V1A5c4MHCFXMWcf8hSnC9jqYxPTz/BXAFEIGsfuclm8zQVqFvQAAAA==[0m[Pipeline] Start of Pipeline
+[8mha:////4HKg5CaURxy3jTZHIET/ay72fuwTgzL+qktpos+oYbOFAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycohUghExsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jduZBmjwAAAAA==[0m[Pipeline] node
+Running on [8mha:////4PIbVBu2GG6Tn0c+fPzCFfFaSbqR4t2TEfqhsTEvM52/AAAAnR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAy2EgZB/eT83ILSktQi/cT01LwSQ30AjtE+WcYAAAA=[0magent1 in /home/youssef/Ski-Station-Project/jenkins_compose/workspace/Ski-Station-Pipeline
+[8mha:////4K6zLmvj9bHZCNeScpemtsmGgcYLdfaPGp/AOolalSKdAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycoh0gA0xsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jfoP95RwAAAAA==[0m[Pipeline] {
+[8mha:////4MLYG1T6u2a0TGOt/HbylN1nYciNUWSAL17OYLscBmt7AAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycoh0gQkxsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jc09154wAAAAA==[0m[Pipeline] stage
+[8mha:////4HU7EhwBFq81CEm2ne7LVAy7LVQKCHifl0LLRdPDmgUGAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycoh0ggUxsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jek7ggRwAAAAA==[0m[Pipeline] { (Declarative: Checkout SCM)
+[8mha:////4MC2ceytZCBMIKEDQ9dyIY8KhEbuq8O+ib2rsBgeWxmOAAAAoh+LCAAAAAAAAP9tjTEOAiEURD9rLGwtPQTbaWGsbAmNJ0AWEZb8zwLrbuWJvJp3kLiJlZNMMm+a93rDOic4UbLcG+wdZu14DKOti0+U+lugiXu6ck2YKRguzSSpM+cFJRUDS1gDKwEbgzpQdmgLbIVXD9UGhba9lFS/o4DGdQM8gYlqLiqVL8wJdvexy4Q/z18BzLEA29ce4gfg7KmOvAAAAA==[0m[Pipeline] checkout
+The recommended git tool is: git
+using credential youssefGitCreds
+Fetching changes from the remote Git repository
+ > git rev-parse --resolve-git-dir /home/youssef/Ski-Station-Project/jenkins_compose/workspace/Ski-Station-Pipeline/.git # timeout=10
+ > git config remote.origin.url https://github.com/YoussefWeslatiEsprit/Ski-Station-Project.git # timeout=10
+Fetching upstream changes from https://github.com/YoussefWeslatiEsprit/Ski-Station-Project.git
+ > git --version # timeout=10
+ > git --version # 'git version 2.34.1'
+using GIT_ASKPASS to set credentials 
+ > git fetch --tags --force --progress -- https://github.com/YoussefWeslatiEsprit/Ski-Station-Project.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+Checking out Revision 4ed08640e13d56cf96dc4d10a073cfea4cf64ce8 (refs/remotes/origin/master)
+ > git rev-parse refs/remotes/origin/master^{commit} # timeout=10
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f 4ed08640e13d56cf96dc4d10a073cfea4cf64ce8 # timeout=10
+Commit message: "commit"
+First time build. Skipping changelog.
+[8mha:////4HC6EP7RChSBcMPBNZmHgoBxLTvXjjVimDdNDA0HA0opAAAAoh+LCAAAAAAAAP9tjTEOAiEURD9rLGwtPQTbGRNjZUtoPAGyiLDkfxZYdytP5NW8g8RNrJxkknnTvNcb1jnBiZLl3mDvMGvHYxhtXXyi1N8CTdzTlWvCTMFwaSZJnTkvKKkYWMIaWAnYGNSBskNbYCu8eqg2KLTtpaT6HQU0rhvgCUxUc1GpfGFOsLuPXSb8ef4KYI6xADvU7j9Dg2gqvAAAAA==[0m[Pipeline] }
+[8mha:////4LyYJtz8vAWGRXYhaDM2uOOgs5aSYlNATRgGIoFN//QwAAAAoh+LCAAAAAAAAP9tjTEOAiEURD9rLGwtPQRbWRhjZUtoPAGyiLDkfxZYdytP5NW8g8RNrJxkknnTvNcb1jnBiZLl3mDvMGvHYxhtXXyi1N8CTdzTlWvCTMFwaSZJnTkvKKkYWMIaWAnYGNSBskNbYCu8eqg2KLTtpaT6HQU0rhvgCUxUc1GpfGFOsLuPXSb8ef4KYI6xADvU7j9J+wGOvAAAAA==[0m[Pipeline] // stage
+[8mha:////4OS+9Q2BZpRqxRfQK878Nrv8zFiWqx5OgehFmv4kBZySAAAAph+LCAAAAAAAAP9tjTEOwjAQBM9BKWgpeYQDEh2iorXc8AITG+PEugv2haTiRXyNPxCIRMVWOyut5vmCMic4UPKycdgGzHWQXez91ORAqb1EGmRDZ1kTZopOajdosu44oyZ2MEcUsFCwdFhHygE9w0o15m6qaNBXJ07TtldQBHuDBwg1mdkk/sKYYH3tbSb8ef4KYOwYxI6h2G4+x/INtuQqUcEAAAA=[0m[Pipeline] withEnv
+[8mha:////4FJXnAYsadGkbboxJ9PYcfcZrVLdZEnuj/YKT8bJouveAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+DOrAycoiUzoiJNerCCUITQtLo/zZJSSdOxNW4Ay2VmPBg2Zas93pDGQOcKBjuNHYWY2t570czJ54pdDdPmTu68pYwkte80bkhpc9rbShpWFUw2AjYamw9RYsmwU44+ZCVl2iqSwrzdhTArBrgCYWYyUmG9C1TgP19VJHwx/kLgKlPwOrDYvXyLD8BobDcwgAAAA==[0m[Pipeline] {
+[8mha:////4BO+/iQ4laKhO66EdCNjYy1pjBM5tWy5ewNpGTiYss3DAAAAph+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUZUVMrFEWThCaEJJG/7dJSjpxIq7GHWipxIQHy7ZkvdcbqhjgRMEwp7GzGFvLej+aObFMobt5yszRlbWEkbxmQmdBSp/XKihpWFWUsOGw1dh6ihZNgh138iFrL9HUlxTm7cihtGqAJxR8JicZ0rdMAfb3UUXCH+cvAKY+Qdk0ix2WZ/UBbwyqm8IAAAA=[0m[Pipeline] withEnv
+[8mha:////4O3ijiM0uDU1rAkOYA7OP1la9gbMLb9o7FKGAcLqdavVAAAAph+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUwIiYukZZOEFoQkgb/V9+UtqJE3E17kBLJSY8WLYl673eUESGE7ETjcXWY6y96ELvpiQG4vYaaBANXURNGClYoeygyNhqqYqShUVZDisJa4t1oOjRJdjIRj90GTS68px42o4Scm/u8IRMTuSkOX3LyLC99SYS/jh/ATB2CfLdfrbD/Cw+y7kUycIAAAA=[0m[Pipeline] {
+[8mha:////4CRPW235eYzX0PSGQZDTMUVje0Fcme7GRs1wJ7dcpFMvAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUCDbE1DXKwglCE0La6P/yk9JOnIircQdaKjHhwbItWe/1hiIynIidaCy2HmPtRRd6NyUxELfXQINo6CJqwkjBCmUHRcZWS1WULCzKclhJWFusA0WPLsFGNvqhy6DRlefE03aUkHtzhydkciInzelbRobtrTeR8Mf5C4CxS5Dv9rMd5mfxAbNWnxXCAAAA[0m[Pipeline] stage
+[8mha:////4AehFx0GF4Q5Vop6PAYqn8CKfD9JH33fmr3nomoBdXFPAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUSDAhpq5RFk4QmhDSRv+Xn5R24kRcjTvQUokJD5ZtyXqvNxSR4UTsRGOx9RhrL7rQuymJgbi9BhpEQxdRE0YKVig7KDK2WqqiZGFRlsNKwtpiHSh6dAk2stEPXQaNrjwnnrajhNybOzwhkxM5aU7fMjJsb72JhD/OXwCMXYJ8t5/tMD+LD5WQ+PfCAAAA[0m[Pipeline] { (GIT Checkout)
+[8mha:////4CFJdVI8mHajTRoc0CJ5slOLisXSwh3anTaNNi//+2gAAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiCmgQVVrLDS8wsTFOrDtjOyQVL+Jr/IFAJCq2WO1sM88XLFOEI0eLraHOUWocBt/baeHAsbt4HrDlMzZMib1BaQbJ2tQzSs4G5hQlLASsDDWekyObYS1adVeVV2SrU47TdxBQOn2DBxRiMmcV8xfGCJtrrxPTz/NXAGPIUG53n9qHN7LjSKW+AAAA[0m[Pipeline] echo
+Getting Project from Git
+[8mha:////4MF9Dd7xEiq7s9iHNwhplhoyZmY1c0w4GwjjaLpn4tVFAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiCkSBqNJabniBiY1xYt0Z2yGpeBFf4w8EIlGxxWpnm3m+YJkiHDlabA11jlLjMPjeTgsHjt3F84Atn7FhSuwNSjNI1qaeUXI2MKcoYSFgZajxnBzZDGvRqruqvCJbnXKcvoOA0ukbPKAQkzmrmL8wRthce52Yfp6/AhhDhnK7+9Q+vAHz0lO8vgAAAA==[0m[Pipeline] checkout
+The recommended git tool is: git
+using credential youssefGitCreds
+Fetching changes from the remote Git repository
+Checking out Revision 4ed08640e13d56cf96dc4d10a073cfea4cf64ce8 (refs/remotes/origin/master)
+Commit message: "commit"
+[8mha:////4GKpntGo7fAo/EUJ6wQXU7a0kXMx7o8pDJRU/SDIdsFLAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiCiQkRJXWcsMLTGyME+vO2A5JxYv4Gn8gEImKLVY728zzBcsU4cjRYmuoc5Qah8H3dlo4cOwungds+YwNU2JvUJpBsjb1jJKzgTlFCQsBK0ON5+TIZliLVt1V5RXZ6pTj9B0ElE7f4AGFmMxZxfyFMcLm2uvE9PP8FcAYQoZyu//U7g1b0dOKvgAAAA==[0m[Pipeline] }
+[8mha:////4HeL1e/1gzCF1gCJ1UyY1B1XxBzvcT0bJlWzWewNIG9nAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiJBqEqNJabniBiY1xYt0Z2yGpeBFf4w8EIlGxxWpnm3m+YJkiHDlabA11jlLjMPjeTgsHjt3F84Atn7FhSuwNSjNI1qaeUXI2MKcoYSFgZajxnBzZDGvRqruqvCJbnXKcvoOA0ukbPKAQkzmrmL8wRthce52Yfp6/AhhDyFBu95/avQFoMog2vgAAAA==[0m[Pipeline] // stage
+[8mha:////4EPXOhssA7aivU4uyDH7A2MeQq4GMjavOYeWC4qJTnJrAAAApx+LCAAAAAAAAP9tjT0OwjAUg1+LOrAycoiUnxF1Yo26cILQhJA0eq8kKenEibgadyBQiQkPlm3J+p4vqIKHhrxmVmFvMHSGDW7UObFEvr84SszSmXWEgZxirUotSXWca0tRwayihAWHpcLOUTCoI6y4FXdRO4G6PkWftwOH0sgbPKDgmRyFj98yeVhfRxkIf5y/AJiGCOV2n223+TyrNzgO5r/CAAAA[0m[Pipeline] stage
+[8mha:////4F9p3iYd2T/6hMad1a7UWWuohhLiMWux4UxwpuaE0LR/AAAAph+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycogUWBFT1ygLJwhNCGmj/8tPSjtxIq7GHWipxIQHy7ZkvdcbishwInaisdh6jLUXXejdlMRA3F4DDaKhi6gJIwUrlB0UGVstVVGysCjLYSVhbbEOFD26BBvZ6Icug0ZXnhNP21FC7s0dnpDJiZw0p28ZGba33kTCH+cvAMYuQX7Yzbafn8UHbGnGmsIAAAA=[0m[Pipeline] { (unit Testing)
+[8mha:////4CfkkBC3u3/uGmOn8u0TDj3yHQB3iaiwD0OoYhjnDCsdAAAAox+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIi0iIqWisNLzCJMXasO8d2cCpexNf4A4FIVGyx2tlmni9YxwBHDhqtot5QbA16N+p5YebQXx1ntHzBlimyU9io3HCnTgs2nBQsKUpYCdgoah1HQzrBVlh5l5WTpKtzCvN3EFCaboAHFGI2JxnSF6YAu9vYRaaf568AJp+grPefqv0bH7uiub4AAAA=[0m[Pipeline] sh
+ > git rev-parse --resolve-git-dir /home/youssef/Ski-Station-Project/jenkins_compose/workspace/Ski-Station-Pipeline/.git # timeout=10
+ > git config remote.origin.url https://github.com/YoussefWeslatiEsprit/Ski-Station-Project.git # timeout=10
+Fetching upstream changes from https://github.com/YoussefWeslatiEsprit/Ski-Station-Project.git
+ > git --version # timeout=10
+ > git --version # 'git version 2.34.1'
+using GIT_ASKPASS to set credentials 
+ > git fetch --tags --force --progress -- https://github.com/YoussefWeslatiEsprit/Ski-Station-Project.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git rev-parse refs/remotes/origin/master^{commit} # timeout=10
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f 4ed08640e13d56cf96dc4d10a073cfea4cf64ce8 # timeout=10
++ mvn clean test -Ptest
+[[1;34mINFO[m] Scanning for projects...
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m-------------------< [0;36mtn.esprit.ds:SkiStationProject[0;1m >-------------------[m
+[[1;34mINFO[m] [1mBuilding SkiStationProject 0.0.1-SNAPSHOT[m
+[[1;34mINFO[m] [1m--------------------------------[ jar ]---------------------------------[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-clean-plugin:3.2.0:clean[m [1m(default-clean)[m @ [36mSkiStationProject[0;1m ---[m
+[[1;34mINFO[m] Deleting /home/youssef/Ski-Station-Project/jenkins_compose/workspace/Ski-Station-Pipeline/target
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-resources-plugin:3.2.0:resources[m [1m(default-resources)[m @ [36mSkiStationProject[0;1m ---[m
+[[1;34mINFO[m] Using 'UTF-8' encoding to copy filtered resources.
+[[1;34mINFO[m] Using 'UTF-8' encoding to copy filtered properties files.
+[[1;34mINFO[m] Copying 3 resources
+[[1;34mINFO[m] Copying 0 resource
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-compiler-plugin:3.10.1:compile[m [1m(default-compile)[m @ [36mSkiStationProject[0;1m ---[m
+[[1;34mINFO[m] Changes detected - recompiling the module!
+[[1;34mINFO[m] Compiling 40 source files to /home/youssef/Ski-Station-Project/jenkins_compose/workspace/Ski-Station-Pipeline/target/classes
+[[1;34mINFO[m] /home/youssef/Ski-Station-Project/jenkins_compose/workspace/Ski-Station-Pipeline/src/main/java/tn/esprit/SkiStationProject/aspects/ExceptionHandlerAdvice.java: /home/youssef/Ski-Station-Project/jenkins_compose/workspace/Ski-Station-Pipeline/src/main/java/tn/esprit/SkiStationProject/aspects/ExceptionHandlerAdvice.java uses unchecked or unsafe operations.
+[[1;34mINFO[m] /home/youssef/Ski-Station-Project/jenkins_compose/workspace/Ski-Station-Pipeline/src/main/java/tn/esprit/SkiStationProject/aspects/ExceptionHandlerAdvice.java: Recompile with -Xlint:unchecked for details.
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-resources-plugin:3.2.0:testResources[m [1m(default-testResources)[m @ [36mSkiStationProject[0;1m ---[m
+[[1;34mINFO[m] Using 'UTF-8' encoding to copy filtered resources.
+[[1;34mINFO[m] Using 'UTF-8' encoding to copy filtered properties files.
+[[1;34mINFO[m] skip non existing resourceDirectory /home/youssef/Ski-Station-Project/jenkins_compose/workspace/Ski-Station-Pipeline/src/test/resources
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-compiler-plugin:3.10.1:testCompile[m [1m(default-testCompile)[m @ [36mSkiStationProject[0;1m ---[m
+[[1;34mINFO[m] Changes detected - recompiling the module!
+[[1;34mINFO[m] Compiling 1 source file to /home/youssef/Ski-Station-Project/jenkins_compose/workspace/Ski-Station-Pipeline/target/test-classes
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-surefire-plugin:2.22.2:test[m [1m(default-test)[m @ [36mSkiStationProject[0;1m ---[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] -------------------------------------------------------
+[[1;34mINFO[m]  T E S T S
+[[1;34mINFO[m] -------------------------------------------------------
+[[1;34mINFO[m] Running tn.esprit.SkiStationProject.[1mSkiStationProjectApplicationTests[m
+13:22:30.841 [main] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating CacheAwareContextLoaderDelegate from class [org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate]
+13:22:30.862 [main] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating BootstrapContext using constructor [public org.springframework.test.context.support.DefaultBootstrapContext(java.lang.Class,org.springframework.test.context.CacheAwareContextLoaderDelegate)]
+13:22:30.910 [main] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating TestContextBootstrapper for test class [tn.esprit.SkiStationProject.SkiStationProjectApplicationTests] from class [org.springframework.boot.test.context.SpringBootTestContextBootstrapper]
+13:22:30.928 [main] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Neither @ContextConfiguration nor @ContextHierarchy found for test class [tn.esprit.SkiStationProject.SkiStationProjectApplicationTests], using SpringBootContextLoader
+13:22:30.932 [main] DEBUG org.springframework.test.context.support.AbstractContextLoader - Did not detect default resource location for test class [tn.esprit.SkiStationProject.SkiStationProjectApplicationTests]: class path resource [tn/esprit/SkiStationProject/SkiStationProjectApplicationTests-context.xml] does not exist
+13:22:30.933 [main] DEBUG org.springframework.test.context.support.AbstractContextLoader - Did not detect default resource location for test class [tn.esprit.SkiStationProject.SkiStationProjectApplicationTests]: class path resource [tn/esprit/SkiStationProject/SkiStationProjectApplicationTestsContext.groovy] does not exist
+13:22:30.933 [main] INFO org.springframework.test.context.support.AbstractContextLoader - Could not detect default resource locations for test class [tn.esprit.SkiStationProject.SkiStationProjectApplicationTests]: no resource found for suffixes {-context.xml, Context.groovy}.
+13:22:30.933 [main] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [tn.esprit.SkiStationProject.SkiStationProjectApplicationTests]: SkiStationProjectApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+13:22:30.993 [main] DEBUG org.springframework.test.context.support.ActiveProfilesUtils - Could not find an 'annotation declaring class' for annotation type [org.springframework.test.context.ActiveProfiles] and class [tn.esprit.SkiStationProject.SkiStationProjectApplicationTests]
+13:22:31.093 [main] DEBUG org.springframework.context.annotation.ClassPathScanningCandidateComponentProvider - Identified candidate component class: file [/home/youssef/Ski-Station-Project/jenkins_compose/workspace/Ski-Station-Pipeline/target/classes/tn/esprit/SkiStationProject/SkiStationProjectApplication.class]
+13:22:31.095 [main] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration tn.esprit.SkiStationProject.SkiStationProjectApplication for test class tn.esprit.SkiStationProject.SkiStationProjectApplicationTests
+13:22:31.238 [main] DEBUG org.springframework.boot.test.context.SpringBootTestContextBootstrapper - @TestExecutionListeners is not present for class [tn.esprit.SkiStationProject.SkiStationProjectApplicationTests]: using defaults.
+13:22:31.238 [main] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.event.ApplicationEventsTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener, org.springframework.test.context.event.EventPublishingTestExecutionListener]
+13:22:31.261 [main] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@2812b107, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@df6620a, org.springframework.test.context.event.ApplicationEventsTestExecutionListener@4e31276e, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@1a72a540, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@27d5a580, org.springframework.test.context.support.DirtiesContextTestExecutionListener@198d6542, org.springframework.test.context.transaction.TransactionalTestExecutionListener@5e403b4a, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@5117dd67, org.springframework.test.context.event.EventPublishingTestExecutionListener@5be49b60, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@2931522b, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@7674b62c, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@19e7a160, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@662706a7, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@45a4b042, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener@16b2bb0c]
+13:22:31.265 [main] DEBUG org.springframework.test.context.support.AbstractDirtiesContextTestExecutionListener - Before test class: context [DefaultTestContext@147a5d08 testClass = SkiStationProjectApplicationTests, testInstance = [null], testMethod = [null], testException = [null], mergedContextConfiguration = [WebMergedContextConfiguration@6676f6a0 testClass = SkiStationProjectApplicationTests, locations = '{}', classes = '{class tn.esprit.SkiStationProject.SkiStationProjectApplication}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{org.springframework.boot.test.context.SpringBootTestContextBootstrapper=true}', contextCustomizers = set[org.springframework.boot.test.context.filter.ExcludeFilterContextCustomizer@60015ef5, org.springframework.boot.test.json.DuplicateJsonObjectContextCustomizerFactory$DuplicateJsonObjectContextCustomizer@568ff82, org.springframework.boot.test.mock.mockito.MockitoContextCustomizer@0, org.springframework.boot.test.web.client.TestRestTemplateContextCustomizer@55f616cf, org.springframework.boot.test.autoconfigure.actuate.metrics.MetricsExportContextCustomizerFactory$DisableMetricExportContextCustomizer@5f683daf, org.springframework.boot.test.autoconfigure.properties.PropertyMappingContextCustomizer@0, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverContextCustomizerFactory$Customizer@55b53d44, org.springframework.boot.test.context.SpringBootTestArgs@1, org.springframework.boot.test.context.SpringBootTestWebEnvironment@527740a2], resourceBasePath = 'src/main/webapp', contextLoader = 'org.springframework.boot.test.context.SpringBootContextLoader', parent = [null]], attributes = map['org.springframework.test.context.web.ServletTestExecutionListener.activateListener' -> true]], class annotated with @DirtiesContext [false] with mode [null].
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::                (v2.7.8)
+
+2024-04-27 13:22:31.659  INFO 562415 --- [           main] t.e.S.SkiStationProjectApplicationTests  : Starting SkiStationProjectApplicationTests using Java 17.0.10 on PC-Youssef with PID 562415 (started by youssef in /home/youssef/Ski-Station-Project/jenkins_compose/workspace/Ski-Station-Pipeline)
+2024-04-27 13:22:31.662  INFO 562415 --- [           main] t.e.S.SkiStationProjectApplicationTests  : No active profile set, falling back to 1 default profile: "default"
+2024-04-27 13:22:32.668  INFO 562415 --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-04-27 13:22:32.743  INFO 562415 --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 64 ms. Found 6 JPA repository interfaces.
+2024-04-27 13:22:33.669  INFO 562415 --- [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-04-27 13:22:34.050  INFO 562415 --- [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-04-27 13:22:34.153  INFO 562415 --- [           main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-04-27 13:22:34.246  INFO 562415 --- [           main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.14.Final
+2024-04-27 13:22:34.476  INFO 562415 --- [           main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2024-04-27 13:22:34.637  INFO 562415 --- [           main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2024-04-27 13:22:35.527  INFO 562415 --- [           main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2024-04-27 13:22:35.538  INFO 562415 --- [           main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-04-27 13:22:36.362  WARN 562415 --- [           main] org.hibernate.orm.deprecation            : HHH90000016: Found use of deprecated 'collection property' syntax in HQL/JPQL query [c.registrations.size]; use collection function syntax instead [size(c.registrations)].
+2024-04-27 13:22:37.449  WARN 562415 --- [           main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-04-27 13:22:39.333  INFO 562415 --- [           main] t.e.S.SkiStationProjectApplicationTests  : Started SkiStationProjectApplicationTests in 8.019 seconds (JVM running for 9.408)
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m1[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 8.831 s - in tn.esprit.SkiStationProject.[1mSkiStationProjectApplicationTests[m
+2024-04-27 13:22:39.578  INFO 562415 --- [ionShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-04-27 13:22:39.579  INFO 562415 --- [ionShutdownHook] .SchemaDropperImpl$DelayedDropActionImpl : HHH000477: Starting delayed evictData of schema as part of SessionFactory shut-down'
+2024-04-27 13:22:39.589  INFO 562415 --- [ionShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-04-27 13:22:39.592  INFO 562415 --- [ionShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+[[1;34mINFO[m] 
+[[1;34mINFO[m] Results:
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1;32mTests run: 1, Failures: 0, Errors: 0, Skipped: 0[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] [1;32mBUILD SUCCESS[m
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] Total time:  16.503 s
+[[1;34mINFO[m] Finished at: 2024-04-27T13:22:39+01:00
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[8mha:////4KMU4Pa//etmFMVZiPtqxx+tlt5JpGN6R1r9MugddZudAAAAox+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIioERUaS03vMDExjix7oztkFS8iK/xBwKRqNhitbPNPF+wTBGOHC22hjpHqXEYfG+nhQPH7uJ5wJbP2DAl9galGSRrU88oORuYU5SwELAy1HhOjmyGtWjVXVVeka1OOU7fQUDp9A0eUIjJnFXMXxgjbK69Tkw/z18BjCFkKHf7T23f36y8/b4AAAA=[0m[Pipeline] }
+[8mha:////4A4H/V87YyZGNm03VFz8sYQxEEDIZY2CAM1cspZZhQAIAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOKCEB2iSmu54QUmNsaJdWdsh6TiRXyNPxCIRMUWq51t5vmCZYpw5GixNdQ5So3D4Hs7LRw4dhfPA7Z8xoYpsTcozSBZm3pGydnAnKKEhYCVocZzcmQzrEWr7qryimx1ynH6DgJKp2/wgEJM5qxi/sIYYXPtdWL6ef4KYAwhQ7nbf2r7BvGsvpe+AAAA[0m[Pipeline] // stage
+[8mha:////4HwHxvPbGkPvlSab2Zm2ur1lUEh1uWmtz2Rl5kdmNFfYAAAAqB+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUgJhQJ9aoCycITQhJo/9LkpJOnIircQcClZjwYNmWrPd8QRU8NOQ1swp7g6EzbHCjzokl8v3FUWKWzqwjDOQUa1VqSarjXFuKCmYVJSw4LBV2joJBHWHFrbiL2gnU9Sn6vB04lEbe4AEFz+QofPyWycP6OspA+OP8BcA0RCg3u2zb/edZvQGLnyvvwgAAAA==[0m[Pipeline] stage
+[8mha:////4O4MSHXBKEI5qkHqdtLZOyOlQCjs8I7khddLq6BnR+PHAAAAqB+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUQoIFMXWNsnCC0ISQNvq//KS0EyfiatyBlkpMeLBsS9Z7vaGIDCdiJxqLrcdYe9GF3k1JDMTtNdAgGrqImjBSsELZQZGx1VIVJQuLshxWEtYW60DRo0uwkY1+6DJodOU58bQdJeTe3OEJmZzISXP6lpFhe+tNJPxx/gJg7BLku/1sh/lZfACW9ZT2wgAAAA==[0m[Pipeline] { (Build Artifact)
+[8mha:////4DPodbwqt4HWXfOnqkNn0h40og895Tl/TdmrQ0/sV010AAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiUUCBqNJabniBiY1xYt0Z2yGpeBFf4w8EIlGxxWpnm3m+YJkiHDlabA11jlLjMPjeTgsHjt3F84Atn7FhSuwNSjNI1qaeUXI2MKcoYSFgZajxnBzZDGvRqruqvCJbnXKcvoOA0ukbPKAQkzmrmL8wRthce52Yfp6/AhhDhnK7+9Q+vAHUcXIBvgAAAA==[0m[Pipeline] sh
++ mvn package -DskipTests
+[[1;34mINFO[m] Scanning for projects...
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m-------------------< [0;36mtn.esprit.ds:SkiStationProject[0;1m >-------------------[m
+[[1;34mINFO[m] [1mBuilding SkiStationProject 0.0.1-SNAPSHOT[m
+[[1;34mINFO[m] [1m--------------------------------[ jar ]---------------------------------[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-resources-plugin:3.2.0:resources[m [1m(default-resources)[m @ [36mSkiStationProject[0;1m ---[m
+[[1;34mINFO[m] Using 'UTF-8' encoding to copy filtered resources.
+[[1;34mINFO[m] Using 'UTF-8' encoding to copy filtered properties files.
+[[1;34mINFO[m] Copying 3 resources
+[[1;34mINFO[m] Copying 0 resource
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-compiler-plugin:3.10.1:compile[m [1m(default-compile)[m @ [36mSkiStationProject[0;1m ---[m
+[[1;34mINFO[m] Nothing to compile - all classes are up to date
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-resources-plugin:3.2.0:testResources[m [1m(default-testResources)[m @ [36mSkiStationProject[0;1m ---[m
+[[1;34mINFO[m] Not copying test resources
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-compiler-plugin:3.10.1:testCompile[m [1m(default-testCompile)[m @ [36mSkiStationProject[0;1m ---[m
+[[1;34mINFO[m] Not compiling test sources
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-surefire-plugin:2.22.2:test[m [1m(default-test)[m @ [36mSkiStationProject[0;1m ---[m
+[[1;34mINFO[m] Tests are skipped.
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-jar-plugin:3.2.2:jar[m [1m(default-jar)[m @ [36mSkiStationProject[0;1m ---[m
+[[1;34mINFO[m] Building jar: /home/youssef/Ski-Station-Project/jenkins_compose/workspace/Ski-Station-Pipeline/target/SkiStationProject-0.0.1-SNAPSHOT.jar
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mspring-boot-maven-plugin:2.7.8:repackage[m [1m(repackage)[m @ [36mSkiStationProject[0;1m ---[m
+[[1;34mINFO[m] Replacing main artifact with repackaged archive
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] [1;32mBUILD SUCCESS[m
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] Total time:  4.149 s
+[[1;34mINFO[m] Finished at: 2024-04-27T13:22:46+01:00
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[8mha:////4GBiPI8BQxRSpghsEhhUFX35tkYdJCiSB2mDqmg8a5E1AAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiUSAkRJXWcsMLTGyME+vO2A5JxYv4Gn8gEImKLVY728zzBcsU4cjRYmuoc5Qah8H3dlo4cOwungds+YwNU2JvUJpBsjb1jJKzgTlFCQsBK0ON5+TIZliLVt1V5RXZ6pTj9B0ElE7f4AGFmMxZxfyFMcLm2uvE9PP8FcAYQoZyu//U7g2/yR8JvgAAAA==[0m[Pipeline] }
+[8mha:////4LMtBaO30U/4wQ1ybmSFFDNxk+SIvZzpi5I8mSTPtCd9AAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiIVEgRJXWcsMLTGyME+vO2A5JxYv4Gn8gEImKLVY728zzBcsU4cjRYmuoc5Qah8H3dlo4cOwungds+YwNU2JvUJpBsjb1jJKzgTlFCQsBK0ON5+TIZliLVt1V5RXZ6pTj9B0ElE7f4AGFmMxZxfyFMcLm2uvE9PP8FcAYQoZyu//U7g2gS0pbvgAAAA==[0m[Pipeline] // stage
+[8mha:////4OYXwCXVJjDj2oBnbiEsbHzPrCMB/4Oo6GLxqzvKciBIAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycogU1BExdY2ycIKQhJA2+r8kKe3EibgadyBQiQkPlm3Jes8XVDHAkYJlncHeYVSODX60ObGJQn/xNLGOzkwRRvKGCTMJ0qZdqqBkYFFRworD2qDyFB3aBBveybusvURbn1LI24FD6fQNHlDwTE4ypG+ZA2yvo46EP85fAMxDgnLfZGt2n2f1BowFkRnCAAAA[0m[Pipeline] stage
+[8mha:////4G1rptzUwmnQwLoJqomVX+oR2k+gPwiFRhUXAhsD6FK2AAAAph+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycogUxIiYukZZOEFoQkgb/V9+UtqJE3E17kBLJSY8WLYl673eUESGE7ETjcXWY6y96ELvpiQG4vYaaBANXURNGClYoeygyNhqqYqShUVZDisJa4t1oOjRJdjIRj90GTS68px42o4Scm/u8IRMTuSkOX3LyLC99SYS/jh/ATB2CfLDbrb9/Cw+ty4Up8IAAAA=[0m[Pipeline] { (Deploy Artifact to private registry Nexus)
+[8mha:////4I12J/lKTiorY6U4oGJYoVhr9N8Jva3JoAKVuldSF6SVAAAAox+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIioERUaS03vMDExjix7oztkFS8iK/xBwKRqNhitbPNPF+wTBGOHC22hjpHqXEYfG+nhQPH7uJ5wJbP2DAl9galGSRrU88oORuYU5SwELAy1HhOjmyGtWjVXVVeka1OOU7fQUDp9A0eUIjJnFXMXxgjbK69Tkw/z18BjCFDud9+ahfettHKdL4AAAA=[0m[Pipeline] sh
++ mvn deploy -Pprod
+[[1;34mINFO[m] Scanning for projects...
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m-------------------< [0;36mtn.esprit.ds:SkiStationProject[0;1m >-------------------[m
+[[1;34mINFO[m] [1mBuilding SkiStationProject 0.0.1-SNAPSHOT[m
+[[1;34mINFO[m] [1m--------------------------------[ jar ]---------------------------------[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-resources-plugin:3.2.0:resources[m [1m(default-resources)[m @ [36mSkiStationProject[0;1m ---[m
+[[1;34mINFO[m] Using 'UTF-8' encoding to copy filtered resources.
+[[1;34mINFO[m] Using 'UTF-8' encoding to copy filtered properties files.
+[[1;34mINFO[m] Copying 3 resources
+[[1;34mINFO[m] Copying 0 resource
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-compiler-plugin:3.10.1:compile[m [1m(default-compile)[m @ [36mSkiStationProject[0;1m ---[m
+[[1;34mINFO[m] Nothing to compile - all classes are up to date
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-resources-plugin:3.2.0:testResources[m [1m(default-testResources)[m @ [36mSkiStationProject[0;1m ---[m
+[[1;34mINFO[m] Not copying test resources
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-compiler-plugin:3.10.1:testCompile[m [1m(default-testCompile)[m @ [36mSkiStationProject[0;1m ---[m
+[[1;34mINFO[m] Not compiling test sources
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-surefire-plugin:2.22.2:test[m [1m(default-test)[m @ [36mSkiStationProject[0;1m ---[m
+[[1;34mINFO[m] Tests are skipped.
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-jar-plugin:3.2.2:jar[m [1m(default-jar)[m @ [36mSkiStationProject[0;1m ---[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mspring-boot-maven-plugin:2.7.8:repackage[m [1m(repackage)[m @ [36mSkiStationProject[0;1m ---[m
+[[1;34mINFO[m] Replacing main artifact with repackaged archive
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-install-plugin:2.5.2:install[m [1m(default-install)[m @ [36mSkiStationProject[0;1m ---[m
+[[1;34mINFO[m] Installing /home/youssef/Ski-Station-Project/jenkins_compose/workspace/Ski-Station-Pipeline/target/SkiStationProject-0.0.1-SNAPSHOT.jar to /home/youssef/.m2/repository/tn/esprit/ds/SkiStationProject/0.0.1-SNAPSHOT/SkiStationProject-0.0.1-SNAPSHOT.jar
+[[1;34mINFO[m] Installing /home/youssef/Ski-Station-Project/jenkins_compose/workspace/Ski-Station-Pipeline/pom.xml to /home/youssef/.m2/repository/tn/esprit/ds/SkiStationProject/0.0.1-SNAPSHOT/SkiStationProject-0.0.1-SNAPSHOT.pom
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-deploy-plugin:2.8.2:deploy[m [1m(default-deploy)[m @ [36mSkiStationProject[0;1m ---[m
+Downloading from deploymentRepo: http://localhost:8081/repository/maven-snapshots/tn/esprit/ds/SkiStationProject/0.0.1-SNAPSHOT/maven-metadata.xml
+Progress (1): 779 B                   Downloaded from deploymentRepo: http://localhost:8081/repository/maven-snapshots/tn/esprit/ds/SkiStationProject/0.0.1-SNAPSHOT/maven-metadata.xml (779 B at 3.0 kB/s)
+Uploading to deploymentRepo: http://localhost:8081/repository/maven-snapshots/tn/esprit/ds/SkiStationProject/0.0.1-SNAPSHOT/SkiStationProject-0.0.1-20240427.122251-2.jar
+Progress (1): 0.4/45 MBProgress (1): 0.9/45 MBProgress (1): 1.3/45 MBProgress (1): 1.8/45 MBProgress (1): 2.2/45 MBProgress (1): 2.7/45 MBProgress (1): 3.1/45 MBProgress (1): 3.6/45 MBProgress (1): 4.0/45 MBProgress (1): 4.5/45 MBProgress (1): 4.9/45 MBProgress (1): 5.4/45 MBProgress (1): 5.8/45 MBProgress (1): 6.3/45 MBProgress (1): 6.7/45 MBProgress (1): 7.1/45 MBProgress (1): 7.6/45 MBProgress (1): 8.0/45 MBProgress (1): 8.5/45 MBProgress (1): 8.9/45 MBProgress (1): 9.4/45 MBProgress (1): 9.8/45 MBProgress (1): 10/45 MB Progress (1): 11/45 MBProgress (1): 11/45 MBProgress (1): 12/45 MBProgress (1): 12/45 MBProgress (1): 13/45 MBProgress (1): 13/45 MBProgress (1): 13/45 MBProgress (1): 14/45 MBProgress (1): 14/45 MBProgress (1): 15/45 MBProgress (1): 15/45 MBProgress (1): 16/45 MBProgress (1): 16/45 MBProgress (1): 17/45 MBProgress (1): 17/45 MBProgress (1): 17/45 MBProgress (1): 18/45 MBProgress (1): 18/45 MBProgress (1): 19/45 MBProgress (1): 19/45 MBProgress (1): 20/45 MBProgress (1): 20/45 MBProgress (1): 21/45 MBProgress (1): 21/45 MBProgress (1): 21/45 MBProgress (1): 22/45 MBProgress (1): 22/45 MBProgress (1): 23/45 MBProgress (1): 23/45 MBProgress (1): 24/45 MBProgress (1): 24/45 MBProgress (1): 25/45 MBProgress (1): 25/45 MBProgress (1): 25/45 MBProgress (1): 26/45 MBProgress (1): 26/45 MBProgress (1): 27/45 MBProgress (1): 27/45 MBProgress (1): 28/45 MBProgress (1): 28/45 MBProgress (1): 29/45 MBProgress (1): 29/45 MBProgress (1): 29/45 MBProgress (1): 30/45 MBProgress (1): 30/45 MBProgress (1): 31/45 MBProgress (1): 31/45 MBProgress (1): 32/45 MBProgress (1): 32/45 MBProgress (1): 33/45 MBProgress (1): 33/45 MBProgress (1): 33/45 MBProgress (1): 34/45 MBProgress (1): 34/45 MBProgress (1): 35/45 MBProgress (1): 35/45 MBProgress (1): 36/45 MBProgress (1): 36/45 MBProgress (1): 37/45 MBProgress (1): 37/45 MBProgress (1): 38/45 MBProgress (1): 38/45 MBProgress (1): 38/45 MBProgress (1): 39/45 MBProgress (1): 39/45 MBProgress (1): 40/45 MBProgress (1): 40/45 MBProgress (1): 41/45 MBProgress (1): 41/45 MBProgress (1): 42/45 MBProgress (1): 42/45 MBProgress (1): 42/45 MBProgress (1): 43/45 MBProgress (1): 43/45 MBProgress (1): 44/45 MBProgress (1): 44/45 MBProgress (1): 45/45 MBProgress (1): 45 MB                      Uploaded to deploymentRepo: http://localhost:8081/repository/maven-snapshots/tn/esprit/ds/SkiStationProject/0.0.1-SNAPSHOT/SkiStationProject-0.0.1-20240427.122251-2.jar (45 MB at 23 MB/s)
+Uploading to deploymentRepo: http://localhost:8081/repository/maven-snapshots/tn/esprit/ds/SkiStationProject/0.0.1-SNAPSHOT/SkiStationProject-0.0.1-20240427.122251-2.pom
+Progress (1): 4.0 kB                    Uploaded to deploymentRepo: http://localhost:8081/repository/maven-snapshots/tn/esprit/ds/SkiStationProject/0.0.1-SNAPSHOT/SkiStationProject-0.0.1-20240427.122251-2.pom (4.0 kB at 14 kB/s)
+Downloading from deploymentRepo: http://localhost:8081/repository/maven-snapshots/tn/esprit/ds/SkiStationProject/maven-metadata.xml
+Progress (1): 289 B                   Downloaded from deploymentRepo: http://localhost:8081/repository/maven-snapshots/tn/esprit/ds/SkiStationProject/maven-metadata.xml (289 B at 4.1 kB/s)
+Uploading to deploymentRepo: http://localhost:8081/repository/maven-snapshots/tn/esprit/ds/SkiStationProject/0.0.1-SNAPSHOT/maven-metadata.xml
+Progress (1): 779 B                   Uploaded to deploymentRepo: http://localhost:8081/repository/maven-snapshots/tn/esprit/ds/SkiStationProject/0.0.1-SNAPSHOT/maven-metadata.xml (779 B at 3.6 kB/s)
+Uploading to deploymentRepo: http://localhost:8081/repository/maven-snapshots/tn/esprit/ds/SkiStationProject/maven-metadata.xml
+Progress (1): 289 B                   Uploaded to deploymentRepo: http://localhost:8081/repository/maven-snapshots/tn/esprit/ds/SkiStationProject/maven-metadata.xml (289 B at 2.2 kB/s)
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] [1;32mBUILD SUCCESS[m
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] Total time:  6.032 s
+[[1;34mINFO[m] Finished at: 2024-04-27T13:22:54+01:00
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[8mha:////4LxKy+M+FkofJI+hIM4rEktWzFbJy14xAOzxoMws9lfjAAAAox+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIilBJR0VppeIFJjLFj3Tm2g1PxIr7GHwhEomKL1c4283zBOgY4ctBoFfWGYmvQu1HPCzOH/uo4o+ULtkyRncJG5YY7dVqw4aRgSVHCSsBGUes4GtIJtsLKu6ycJF2dU5i/g4DSdAM8oBCzOcmQvjAF2N3GLjL9PH8FMHmfoKzrT+3fKpbQQr4AAAA=[0m[Pipeline] }
+[8mha:////4NA6YLs/nIia065qGIGY2wNCAs1iaWq79dyCfud9JuRXAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOKCBB2iSmu54QUmNsaJdWdsh6TiRXyNPxCIRMUWq51t5vmCZYpw5GixNdQ5So3D4Hs7LRw4dhfPA7Z8xoYpsTcozSBZm3pGydnAnKKEhYCVocZzcmQzrEWr7qryimx1ynH6DgJKp2/wgEJM5qxi/sIYYXPtdWL6ef4KYAwhQ7nbf2r7BgSW0ii+AAAA[0m[Pipeline] // stage
+[8mha:////4D+2uCcMm0NmkswA5oSt6pPNgfPat/r5N88uaIbydDNNAAAAqB+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUqGJCTF2jLJwgJCGkjf4vSUo7cSKuxh0IVGLCg2Vbst7zBVUMcKRgWWewdxiVY4MfbU5sotBfPE2sozNThJG8YcJMgrRplyooGVhUlLDisDaoPEWHNsGGd/Iuay/R1qcU8nbgUDp9gwcUPJOTDOlb5gDb66gj4Y/zFwDzkKDcNdma/edZvQE/lFxJwgAAAA==[0m[Pipeline] stage
+[8mha:////4CVjoaXZ25mQkssOdPDJxwD/mlIIh4SYlF7o4TNBGiY2AAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycoh0QLAgpq5RFk4QmhDSRv+Xn5R24kRcjTvQUokJD5ZtyXqvNxSR4UTsRGOx9RhrL7rQuymJgbi9BhpEQxdRE0YKVig7KDK2WqqiZGFRlsNKwtpiHSh6dAk2stEPXQaNrjwnnrajhNybOzwhkxM5aU7fMjJsb72JhD/OXwCMXYJ8t5/tMD+LD02yRsvCAAAA[0m[Pipeline] { (Build Docker image and upload to Nexus)
+[8mha:////4IQo5ioOUEAwto5Bo2Qk+0nw93g4gUvRZG6s6Xs+ntHUAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOJSIEGBqNJabniBiY1xYt0Z2yGpeBFf4w8EIlGxxWpnm3m+YJkiHDlabA11jlLjMPjeTgsHjt3F84Atn7FhSuwNSjNI1qaeUXI2MKcoYSFgZajxnBzZDGvRqruqvCJbnXKcvoOA0ukbPKAQkzmrmL8wRthce52Yfp6/AhhDhnK7+9Q+vAF9GxrMvgAAAA==[0m[Pipeline] sh
++ docker build -t skiapp .
+#0 building with "default" instance using docker driver
+
+#1 [internal] load build definition from Dockerfile
+#1 transferring dockerfile: 140B 0.0s done
+#1 DONE 0.1s
+
+#2 [internal] load metadata for docker.io/library/openjdk:8-jdk-alpine
+#2 DONE 1.6s
+
+#3 [internal] load .dockerignore
+#3 transferring context: 2B done
+#3 DONE 0.0s
+
+#4 [1/3] FROM docker.io/library/openjdk:8-jdk-alpine@sha256:94792824df2df33402f201713f932b58cb9de94a0cd524164a0f2283343547b3
+#4 DONE 0.0s
+
+#5 [internal] load build context
+#5 transferring context: 44.75MB 0.8s done
+#5 DONE 0.9s
+
+#6 [2/3] WORKDIR /app
+#6 CACHED
+
+#7 [3/3] COPY target/*.jar  app.jar
+#7 DONE 0.5s
+
+#8 exporting to image
+#8 exporting layers
+#8 exporting layers 0.3s done
+#8 writing image sha256:245c3de73ca5f879ec124289670ae8b3f0ee7d69c143fea74359713aaaf3eae1 done
+#8 naming to docker.io/library/skiapp 0.0s done
+#8 DONE 0.3s
+[8mha:////4GyJ8zzJZGaouV5sjkc3SpBXVwsqbfOdn7gpLk7Ei2BpAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOJSICEkRJXWcsMLTGyME+vO2A5JxYv4Gn8gEImKLVY728zzBcsU4cjRYmuoc5Qah8H3dlo4cOwungds+YwNU2JvUJpBsjb1jJKzgTlFCQsBK0ON5+TIZliLVt1V5RXZ6pTj9B0ElE7f4AGFmMxZxfyFMcLm2uvE9PP8FcAYMpTb3af24Q2yB4JLvgAAAA==[0m[Pipeline] sh
++ echo admin
++ docker login -u admin --password-stdin http://localhost:8085/
+Login Succeeded
+[8mha:////4CDvkcSXVWVrMfIr5kMZTZzQGgHgkoIpF0yi1GWSZ6iCAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOJSICEhRJXWcsMLTGyME+vO2A5JxYv4Gn8gEImKLVY728zzBcsU4cjRYmuoc5Qah8H3dlo4cOwungds+YwNU2JvUJpBsjb1jJKzgTlFCQsBK0ON5+TIZliLVt1V5RXZ6pTj9B0ElE7f4AGFmMxZxfyFMcLm2uvE9PP8FcAYMpTb3af24Q3zNplSvgAAAA==[0m[Pipeline] sh
++ docker tag skiapp:latest localhost:8085/repository/docker-private-repository/skiapp:latest
+[8mha:////4M9rCsKxN0/lHXnbC53wKeLsbJ2nEKxSIB48hbZZZpnnAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOKCBKJBqWgtN7zAJMY4se6C7eBUvIiv8QcsIlGxxWpnm3m9YRk81OwNdpp6S6GxOLjR5IWJfX91nLDjCzZMgZ1GqZPkVp9mlBw1zClKWAhYaWocB0smwlp06qEqp8hU5+jzdxRQ2vYOTyhENkfl4xcmD5vb2Aamn+evAKYhQrk75Npvhw8/mxSGvgAAAA==[0m[Pipeline] sh
++ docker push localhost:8085/repository/docker-private-repository/skiapp:latest
+The push refers to repository [localhost:8085/repository/docker-private-repository/skiapp]
+494ac5df953d: Preparing
+f8a721eb40d7: Preparing
+ceaf9e1ebef5: Preparing
+9b9b7f3d56a0: Preparing
+f1b5933fe4b5: Preparing
+f1b5933fe4b5: Layer already exists
+f8a721eb40d7: Layer already exists
+ceaf9e1ebef5: Layer already exists
+9b9b7f3d56a0: Layer already exists
+494ac5df953d: Pushed
+latest: digest: sha256:f656f25a578bf9c5fc83a1e84da982c3218a1e35cc4d6a8b8c33dcafc1e9b374 size: 1365
+[8mha:////4JeGSOHUmQV+X5KH5MtqJjS7t24Lk5MpueKtulwH9PRfAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiBKJBqWgtN7zAJMY4se6C7eBUvIiv8QcsIlGxxWpnm3m9YRk81OwNdpp6S6GxOLjR5IWJfX91nLDjCzZMgZ1GqZPkVp9mlBw1zClKWAhYaWocB0smwlp06qEqp8hU5+jzdxRQ2vYOTyhENkfl4xcmD5vb2Aamn+evAKZhiFDut7l2hw8MnNtUvgAAAA==[0m[Pipeline] }
+[8mha:////4E8LudPcy9Nv0XFAMYh5SrwfmalN1j1y/uw/slBSCWJtAAAApR+LCAAAAAAAAP9tjTsOwjAQRDdBFLSUHGIj8alQKlrLDScwiTFOrN1gOzgVJ+Jq3AGLSFRMMZo3zXu9YRk81OwNdpp6S6GxOLjR5IWJfX91nLDjCzZMgZ1GqZPkVp9mlBw1zClKWAhYaWocB0smwlp06qEqp8hU5+jzdxRQ2vYOTyhENkfl4xcmD5vb2Aamn+evAKZhiFDut7l2hw8Yv0ZLvgAAAA==[0m[Pipeline] // stage
+[8mha:////4OYRbnJ1HjG8JRdc8GJrr0RCja1B5KRndbTrnYKtbzErAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUqGyIqWuUhROEJIS00f8lSWknTsTVuAOBSkx4sGxL1nu+oIoBjhQs6wz2DqNybPCjzYlNFPqLp4l1dGaKMJI3TJhJkDbtUgUlA4uKElYc1gaVp+jQJtjwTt5l7SXa+pRC3g4cSqdv8ICCZ3KSIX3LHGB7HXUk/HH+AmAeEpS7Jtu++TyrN6xJolrCAAAA[0m[Pipeline] stage
+[8mha:////4Icg1rBkBIg6hd7XEbx8vfmlwPVqXzMaKyd3y8GcduesAAAAph+LCAAAAAAAAP9tjTEOwjAUQ3+DOrAycoh0oBtiYo26cILQhJA0+r9NUtKJE3E17kBLJSY8WLYl673eUMYAJwqGO42dxdha3vvRzIlnCt3NU+aOrrwljOQ1b3RuSOnzWhtKGlYVDDYCthpbT9GiSbATTj5k5SWa6pLCvB0FMKsGeEIhZnKSIX3LFGB/H1Uk/HH+AmDqE7D6sFi9PMsPBA4E38IAAAA=[0m[Pipeline] { (Run Docker image)
+[8mha:////4OIB4h7JaRAk1Wq86Blzy43gkac7PFaoZUHM2se35+P+AAAAox+LCAAAAAAAAP9tjTESwiAURH/iWNhaegjSxMqxsmVoPAEmiBDmfwJEUnkir+YdRDNj5RY7+7Z5zxesY4AjBc2swsFg7AzzbtJlsUxhuDrKzNKFdYSRnGJCZUG9Oi0oKClYUtWw4rBR2DmKBnWCLbfyLhsnUTfnFMp34FCbfoQHVLyYkwzpC3OA3W3qI+HP81cAs09Qt+2n9v4NSnc5Zr4AAAA=[0m[Pipeline] sh
++ docker compose up -d
+ Network ski-station-pipeline_default  Creating
+ Network ski-station-pipeline_default  Created
+ Container jenkins  Creating
+ Container nexus  Creating
+ Container mysql-container  Creating
+Error response from daemon: Conflict. The container name "/jenkins" is already in use by container "87891daa21834fde8cdad1609239dcedde32c92baffcce45d45e609c47f4e8ca". You have to remove (or rename) that container to be able to reuse that name.
+[8mha:////4Gk7OKrWSdC9r/EPFLa1KfAb6CQFGJ8aQOIQWDyFH04rAAAAox+LCAAAAAAAAP9tjTESwiAURH/iWNhaegjSZGwcK1uGxhNggghh/idAJJUn8mreQTQzVm6xs2+b93zBOgY4UtDMKhwMxs4w7yZdFssUhqujzCxdWEcYySkmVBbUq9OCgpKCJVUNKw4bhZ2jaFAn2HIr77JxEnVzTqF8Bw616Ud4QMWLOcmQvjAH2N2mPhL+PH8FMHufoG73n2rfX1uR6L4AAAA=[0m[Pipeline] }
+[8mha:////4ClRG5/0mT/uH1RjWUQQ0atbag287mTv1qDjYP96C/jlAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOJSgESBqNJabniBiY1xYt0Z2yGpeBFf4w8EIlGxxWpnm3m+YJkiHDlabA11jlLjMPjeTgsHjt3F84Atn7FhSuwNSjNI1qaeUXI2MKcoYSFgZajxnBzZDGvRqruqvCJbnXKcvoOA0ukbPKAQkzmrmL8wRthce52Yfp6/AhhDyFDu9p/avgFZHam9vgAAAA==[0m[Pipeline] // stage
+[8mha:////4C/zkhfehC2E3Jb5/gTGiYh5YbjH2MHvX61K+c/wYcogAAAAqB+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUCAYk1Ik16sIJQhNC0uj/kqSkEyfiatyBQCUmPFi2Jes9X1AFDw15zazC3mDoDBvcqHNiiXx/cZSYpTPrCAM5xVqVWpLqONeWooJZRQkLDkuFnaNgUEdYcSvuonYCdX2KPm8HDqWRN3hAwTM5Ch+/ZfKwvo4yEP44fwEwDRHKzTbbbv95Vm9vuWUwwgAAAA==[0m[Pipeline] stage
+[8mha:////4GWE3nou8SJ18Y2H6MEKdzf0HLbJif3DMHTjzHX5dqhQAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycoh0YQAhpq5RFk4QmhDSRv+Xn5R24kRcjTvQUokJD5ZtyXqvNxSR4UTsRGOx9RhrL7rQuymJgbi9BhpEQxdRE0YKVig7KDK2WqqiZGFRlsNKwtpiHSh6dAk2stEPXQaNrjwnnrajhNybOzwhkxM5aU7fMjJsb72JhD/OXwCMXYJ8t5/tMD+LD56au0DCAAAA[0m[Pipeline] { (Declarative: Post Actions)
+[8mha:////4B2LRPQaaBCFwS4RkRAT60PQ2DM+GFB/LtSfOluUS5tiAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOJCAQVCqWgtN7zAJMY4se6C7eBUvIiv8QcsIlGxxWpnm3m9YRk81OwNdpp6S6GxOLjR5IWJfX91nLDjCzZMgZ1GqZPkVp9mlBw1zClKWAhYaWocB0smwlp06qEqp8hU5+jzdxRQ2vYOTyhENkfl4xcmD5vb2Aamn+evAKYhQrk75Npvhw/4iFt7vgAAAA==[0m[Pipeline] emailext
+Sending email to: weslati.youssef@esprit.tn
+Connection error sending email, retrying once more in 10 seconds...
+Connection error sending email, retrying once more in 10 seconds...
+Failed after second try sending email
+[8mha:////4B9uNMCcho6VfDeiV3iHVUIJFvF3r5oKbcTiwgjs6qakAAAAph+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiJCgQSkVrueEFJjHGiXUXbAen4kV8jT9gEYmKLVY728zrDcvgoWZvsNPUWwqNxcGNJi9M7Pur44QdX7BhCuw0Sp0kt/o0o+SoYU5RwkLASlPjOFgyEdaiUw9VOUWmOkefv6OA0rZ3eEIhsjkqH78wedjcxjYw/Tx/BTANQ4Ryv821O3wA7hxSLb4AAAA=[0m[Pipeline] }
+[8mha:////4CZGlBKZX8JpPO+Kh7w8BARKe8EO1fekd4pER9EI4+UUAAAAph+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiIZCQUCpayw0vMIkxTqy7YDs4FS/ia/wBi0hUbLHa2WZeb1gGDzV7g52m3lJoLA5uNHlhYt9fHSfs+IINU2CnUeokudWnGSVHDXOKEhYCVpoax8GSibAWnXqoyiky1Tn6/B0FlLa9wxMKkc1R+fiFycPmNraB6ef5K4BpGCKU+22u3eED1l7B3L4AAAA=[0m[Pipeline] // stage
+[8mha:////4Cx0Lnrely99d311+4oDh/ymTUdPHy7SMFgIyCqy+jT0AAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPMIRiqgQVVorDS8w8WGcWHfGdkgqXsTX+AMWkajYYrWzzbzesI4BThyM6JEGS7GzwrvR5CUmDsPV8SR6voiOKbJD0eLUssZmwZYTwpKihJWEDVLnOFoyCbayVw9VOUWmOqeQv6OE0uo7PKGQ2ZxUSF+YA+xuo45MP89fAczeJygPda59/QG+oDj9vgAAAA==[0m[Pipeline] }
+[8mha:////4HdB2XkoGsR/EjiDBwCP+BsSIsz22OwJqzSQsax6rf78AAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiEFQoFa3lhheYxBgn1l2wHZyKF/E1/oBFJCq2WO1sM683LIOHmr3BTlNvKTQWBzeavDCx76+OE3Z8wYYpsNModZLc6tOMkqOGOUUJCwErTY3jYMlEWItOPVTlFJnqHH3+jgJK297hCYXI5qh8/MLkYXMb28D08/wVwDQMEcrDPtd29wGQoDqXvgAAAA==[0m[Pipeline] // withEnv
+[8mha:////4Jh+Ct7ttj4XKFZoLcax5fjkgmKfRoWb3NRdjnAbnp/1AAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPMJRilSIitZKwwtMbIwT686xLyQVL+Jr/AGLSFRssdrZZl5v2KYIJ4pW9AYHh6lzIvjJ5iVmisPN0yx6uoqOMJE3ojVzS9qcV2yJDawpSthI2BnsPCWHlmEve/VQlVdoqwvH/B0llE6P8IRCZjOryF9YIhzuk06EP89fASwhMJRNk6uuP48ib8W+AAAA[0m[Pipeline] }
+[8mha:////4FL50ZRPxAJF8cgDd4dJu+aaAqK9Vs1y5FzrcMx0FpSoAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOICBTQoFa3lhheYxBgn1l2wHZyKF/E1/oBFJCq2WO1sM683LIOHmr3BTlNvKTQWBzeavDCx76+OE3Z8wYYpsNModZLc6tOMkqOGOUUJCwErTY3jYMlEWItOPVTlFJnqHH3+jgJK297hCYXI5qh8/MLkYXMb28D08/wVwDQMEcr9Iddu+wG3YPw0vgAAAA==[0m[Pipeline] // withEnv
+[8mha:////4BMYpDnphqfriUqGnVvZNB/USUchLkNhiVTsHedsry6gAAAAox+LCAAAAAAAAP9tjTEOwjAQBDdBFLSUPMJpQBSIitZKwwtMYowT6y7YF5KKF/E1/kBEJCq22plmXm8sU8SRo1ONpdZTqrzqQu+mpwaO7TXwoBq+qIopcbCqtEPJtT3NWLJYzMtyLDRWlqrAyZMTrHVjHqYIhlxxlji5g0bu6zueyPRUFhPlC2PE5tbXienX+RvA2HWCfLcXZNsPg7X0+70AAAA=[0m[Pipeline] }
+[8mha:////4H1PbhX9KujYDXlvln0KKDtX6DacjQgfMt2O/C6ctaarAAAApB+LCAAAAAAAAP9tjTEOwjAQBDdBFLSUPMIpEBISoqK10vACkxjjxLoL9oWk4kV8jT8QEYmKrXammdcbyxRx5OhUY6n1lCqvutC76amBY3sNPKiGL6piShysKu1Qcm1PM5YsFvOyHAuNlaUqcPLkBGvdmIcpgiFXnCVO7qCR+/qOJzI9lcVE+cIYsbn1dWL6df4GMHadIN/tBdn2A/G3wOe9AAAA[0m[Pipeline] // node
+[8mha:////4Fg0e2I2QaG8nHJUaKBai1W8cW0wtEVYeQPa1H/UjBoSAAAApB+LCAAAAAAAAP9tjTEOwjAQBDdBFLSUPMKRkCgQoqK10vACkxjjxLoL9oWk4kV8jT8QEYmKrXammdcbyxRx5OhUY6n1lCqvutC76amBY3sNPKiGL6piShysKu1Qcm1PM5YsFvOyHAuNlaUqcPLkBGvdmIcpgiFXnCVO7qCR+/qOJzI9lcVE+cIYsbn1dWL6df4GMHadIN/tBdn2A9eup629AAAA[0m[Pipeline] End of Pipeline
+ERROR: script returned exit code 1
 Finished: FAILURE
