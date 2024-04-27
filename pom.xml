@@ -19,12 +19,12 @@
     <distributionManagement>
         <snapshotRepository>
             <id>deploymentRepo</id>
-            <name>Nexus Repository - Snapshots</name>
+            <name>maven-snapshots</name>
             <url>http://localhost:8081/repository/maven-snapshots/</url>
         </snapshotRepository>
         <repository>
             <id>deploymentRepo</id>
-            <name>Nexus Repository - Releases</name>
+            <name>maven-releases</name>
             <url>http://localhost:8081/repository/maven-releases/</url>
         </repository>
     </distributionManagement>

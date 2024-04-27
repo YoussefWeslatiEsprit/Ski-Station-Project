@@ -12,6 +12,10 @@
       <string>Ski-Station-Pipeline</string>
       <ranges>1,3</ranges>
     </entry>
+    <entry>
+      <string>stagebystage-pipeline</string>
+      <ranges>1-2,4-8,10</ranges>
+    </entry>
   </usages>
   <facets>
     <com.cloudbees.plugins.credentials.fingerprints.ItemCredentialsFingerprintFacet plugin="credentials@1337.v60b_d7b_c7b_c9f">

@@ -1,18 +1,5 @@
 pipeline {
     agent {label 'agent1'}
-
-    environment {
-        //sonarcloud
-        SONARCLOUD_HOST = 'https://sonarcloud.io'
-        SONARCLOUD_ORGANIZATION = 'youssefweslatiesprit'
-        SONARCLOUD_PROJECTKEY = 'YoussefWeslatiEsprit_Ski-Station-Project'
-        SONARCLOUD_TOKEN = '0247b6cb78e374ccf2be4371e21d74c919502b4e'
-        //docker
-        imageName = "skiapp"
-        registryCredentials = "Nexus"
-        registry = "localhost:8085"
-        dockerImage = ''
-    }
     
     stages {
 
@@ -33,7 +20,7 @@ pipeline {
         stage('SonarQube') {
             steps {
                 script {
-                    sh 'mvn compile sonar:sonar -Dsonar.host.url=https://sonarcloud.io/ -Dsonar.organization=skiproject -Dsonar.projectKey=skiproject1_devops -Dsonar.login=7582b019c3cb5c477a25bb7b8ef94de659be2b4e -Dsonar.coverage.jacoco.xmlReportPaths=target/site/jacoco/jacoco.xml'
+                    sh 'mvn compile sonar:sonar -Dsonar.host.url=https://sonarcloud.io/ -Dsonar.organization=skiproject1 -Dsonar.projectKey=skiproject1_devops -Dsonar.login=7582b019c3cb5c477a25bb7b8ef94de659be2b4e -Dsonar.coverage.jacoco.xmlReportPaths=target/site/jacoco/jacoco.xml'
                 }
             }
         }
