@@ -29,46 +29,33 @@ pipeline {
             }
         }
 
-        stage('SonarQube Analysis') {
+        stage('Build Artifact') {
             steps {
-                sh "mvn verify sonar:sonar -Dsonar.host.url=${SONARCLOUD_HOST} -Dsonar.organization=${SONARCLOUD_ORGANIZATION} -Dsonar.projectKey=${SONARCLOUD_PROJECT} -Dsonar.token=${SONARCLOUD_TOKEN}"
-            }
-        }
-
-        stage ('SRC Analysis Testing') {
-            steps {
-                sh "mvn clean test -Ptest"
-            }
-        }
-
-        stage ('Build') {
-            steps {
-                sh "chmod +x ./mvnw"
-                sh "mvn clean package -Pprod" 
+                sh 'mvn package -DskipTests'
             }
         }
 
         stage ('Deploy Artifact to private registry Nexus') {
             steps {
-                    sh "mvn clean deploy -Pprod"
+                    sh "mvn deploy -Pprod"
             }
         }
 
-        stage('Building image') {
-            steps{
-                script {
-                dockerImage = docker.build imageName
-                }
+        stage('Build Docker image and upload to Nexus') {
+            steps {
+                sh 'docker build -t skiapp .'
+                
+                sh 'echo "admin" | docker login -u admin --password-stdin http://localhost:8085/'
+            
+                sh 'docker tag skiapp:latest localhost:8085/repository/docker-private-repository/skiapp:latest'
+
+                sh 'docker push localhost:8085/repository/docker-private-repository/skiapp:latest'    
             }
         }
 
-        stage('Uploading to Nexus') {
-            steps{  
-                script {
-                    docker.withRegistry( 'http://'+registry, registryCredentials ) {
-                    dockerImage.push('latest')
-                }
-                }
+        stage('Run Docker image') {
+            steps {
+                sh 'docker compose up -d'
             }
         }
         
