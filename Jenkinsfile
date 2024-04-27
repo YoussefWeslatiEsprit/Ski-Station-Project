@@ -19,9 +19,7 @@ pipeline {
         stage ('GIT Checkout') {
             steps {
                     echo "Getting Project from Git"; 
-                        git branch: "master", 
-                            url: "https://github.com/YoussefWeslatiEsprit/Ski-Station-Project.git",
-                            credentialsId: "youssefGitCreds"; 
+                    checkout scmGit(branches: [[name: '*/master']], extensions: [], userRemoteConfigs: [[credentialsId: 'youssefGitCreds', url: 'https://github.com/YoussefWeslatiEsprit/Ski-Station-Project.git']])
             }
         }
 
