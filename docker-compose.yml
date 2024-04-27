@@ -1,0 +1,38 @@
+version: '3.8'
+
+services:
+  mysqldb:
+    container_name: mysql-container
+    image: mysql:latest
+    restart: always
+    environment:
+      MYSQL_ROOT_PASSWORD: password
+      MYSQL_ALLOW_EMPTY_PASSWORD: 'yes'
+      MYSQL_DATABASE: SkiStationDB
+    ports:
+      - "3307:3306"
+
+  SkiStationProject:
+    build: .
+    restart: always
+    image: skiapp
+    environment:
+      spring.datasource.url: "jdbc:mysql://mysqldb:3306/SkiStationDB?createDatabaseIfNotExist=true"
+      spring.datasource.username: root
+      spring.datasource.password: password
+    container_name: skicontainer
+    ports:
+      - "9090:9090"
+    depends_on:
+      - mysqldb
+
+  jenkins:
+    image: jenkins/jenkins:lts
+    container_name: jenkins
+    restart: always
+    ports:
+     - 8080:8080
+    environment:
+      - JAVA_OPTS=-Djenkins.install.runSetupWizard=false
+    volumes:
+       - ./jenkins_compose/jenkins_configuration:/var/jenkins_home
