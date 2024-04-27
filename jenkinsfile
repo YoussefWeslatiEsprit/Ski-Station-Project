@@ -56,7 +56,6 @@ pipeline {
             }
         }
 
-            // Building Docker images
         stage('Building image') {
             steps{
                 script {
@@ -64,7 +63,7 @@ pipeline {
                 }
             }
         }
-        // Uploading Docker images into Nexus Registry
+
         stage('Uploading to Nexus') {
             steps{  
                 script {
