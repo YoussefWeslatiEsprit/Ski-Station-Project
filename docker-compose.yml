@@ -11,16 +11,14 @@ services:
       MYSQL_DATABASE: SkiStationDB
     ports:
       - "3307:3306"
+    volumes:
+      - ./volumes/mysqldb/mysqldb_data:/var/lib/mysql
 
   SkiStationProject:
-    build: .
-    restart: always
-    image: skiapp
-    environment:
-      spring.datasource.url: "jdbc:mysql://mysqldb:3306/SkiStationDB?createDatabaseIfNotExist=true"
-      spring.datasource.username: root
-      spring.datasource.password: password
     container_name: skicontainer
+    build: .
+    restart: on-failure
+    image: skiapp
     ports:
       - "9090:9090"
     depends_on:
@@ -36,3 +34,15 @@ services:
       - JAVA_OPTS=-Djenkins.install.runSetupWizard=false
     volumes:
        - ./jenkins_compose/jenkins_configuration:/var/jenkins_home
+
+  nexus:
+    image: sonatype/nexus3
+    container_name: nexus
+    ports:
+      - "8081:8081"
+    restart: always
+    environment:
+      - INSTALL4J_ADD_VM_PARAMS=-Xms2g -Xmx2g -XX:MaxDirectMemorySize=3g
+      - NEXUS_SECURITY_RANDOMPASSWORD=true
+    volumes:
+      - ./volumes/nexus/nexus_data:/nexus-data
